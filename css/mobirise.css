@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none
+}
+
+.container {
+    margin-left: 20%
+}
+
+.container-left {
+    text-align: left
+}
+
+.container-center {
+    text-align: center
+}
+
+body i {
+    position: fixed;
+    top: 20px;
+    right: 15px;
+    font-size: 25px;
+    color: black;
+    z-index: 1
+}
+
+.section-width {
+    width: 100vw
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+}
+
+
+/*Section Intro*/
+
+#section-intro {
+    background-image: url(../images/malte-wingen-381988-1920x1280.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative
+}
+
+.div-intro {
+    position: absolute;
+    left: 10px;
+    top: 280px;
+    width: 25%
+}
+
+.div-intro h1 {
+    font-size: 45px;
+    margin: 15px 0;
+    font-family: 'Poppins';
+    font-weight: bold
+}
+
+.div-intro a {
+    color: black;
+    background-color: white;
+    margin-left: 10px;
+    padding: 14px 30px;
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-weight: 500;
+}
+
+
+/*Section Content*/
+
+#Section-content {
+    background-color: white;
+}
+
+.div-content {
+    width: 57%
+}
+
+.div-content h2 {
+    font-weight: 400;
+    padding-top: 50px;
+    font-size: 33px
+}
+
+.div-content p {
+    font-family: 'Rubik';
+    font-size: 16px;
+    padding: 15px 0 20px 15px;
+}
+
+
+/*Section Content 2*/
+
+#section-content-2 {
+    background-color: #fac769;
+    height: 15vh;
+    margin-top: 35px
+}
+
+.div-content-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+
+
+/*Section HP of Mounth*/
+
+#section-hpmonth h2 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 25px 0;
+}
+
+.headphones img {
+    width: 100%;
+}
+
+.headphones {
+    width: 20%;
+    background-color: #fac769;
+}
+
+
+/* .absolute {
+    position: absolute;
+    z-index: 1
+} */
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.middleh {
+    margin: 0 25px
+}
+
+
+/* Section New HP*/
+
+#section-newhp h2 {
+    font-size: 25px;
+    margin: 50px 0 25px 0
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.gallery div {
+    width: 25%;
+    display: flex
+}
